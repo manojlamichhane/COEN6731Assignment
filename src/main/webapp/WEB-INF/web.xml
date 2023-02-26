@@ -5,21 +5,8 @@
   xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
   metadata-complete="false"
   version="5.0">
-
-<servlet>
-      <servlet-name>ResourceServlet</servlet-name>
-      <servlet-class>com.example.controller.ResourceServlet</servlet-class>
-   </servlet>
-   <servlet>
-      <servlet-name>ResourceAllServlet</servlet-name>
-      <servlet-class>com.example.controller.ResourceAllServlet</servlet-class>
-   </servlet>
  
    <!-- Note: All <servlet> elements MUST be grouped together and
          placed IN FRONT of the <servlet-mapping> elements -->
  
-   <servlet-mapping>
-      <servlet-name>ResourceAllServlet</servlet-name>
-      <url-pattern>allaudio</url-pattern>
-   </servlet-mapping>
 </web-app>
