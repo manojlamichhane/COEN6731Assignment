@@ -55,6 +55,7 @@ public class JettyServer {
         handler.addServlet(com.example.controller.ResourceServlet.class, "/audio");
         handler.addServlet(com.example.controller.ResourceAllServlet.class, "/allaudio");
         handler.addServlet(com.example.controller.ResourcePostServlet.class, "/saveaudio");
+        handler.addServlet(com.example.controller.SkierPostServlet.class, "/skiers");
         server.setHandler(handler);
         
         server.start();
