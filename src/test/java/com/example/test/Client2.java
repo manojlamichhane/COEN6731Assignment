@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 import java.time.Instant;
 
-public class AudioClientTest {
+public class Client2 {
 
 	@SuppressWarnings("deprecation")
 	@Test
